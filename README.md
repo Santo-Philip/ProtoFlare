@@ -25,4 +25,4 @@
 ## 🧱 Installation
 
 ```bash
-go get github.com/yourusername/protoflare
+go get github.com/Santo-Philip/ProtoFlare
