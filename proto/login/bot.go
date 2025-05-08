@@ -6,6 +6,9 @@ import (
 	"github.com/gotd/td/telegram"
 )
 
+type BotLogin struct {
+}
+
 func (LoginService) Bot(ctx context.Context, apiID int, apiHash, botToken string) (*telegram.Client, error) {
 	client := telegram.NewClient(apiID, apiHash, telegram.Options{})
 	err := client.Run(ctx, func(ctx context.Context) error {
